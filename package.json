@@ -1,0 +1,39 @@
+{
+  "name": "fitness-tracker-3d-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A React-based landing page showcasing fitness goals through interactive 3D visuals using Three.js.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "0.176.0",
+    "react": "19.1.0",
+    "lucide-react": "0.507.0",
+    "@types/three": "0.176.0",
+    "@react-three/fiber": "9.1.2",
+    "gsap": "3.13.0",
+    "@react-three/drei": "10.0.7",
+    "react-dom": "19.1.0",
+    "tailwindcss": "4.1.5",
+    "framer-motion": "12.9.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  },
+  "keywords": [
+    "fitness",
+    "3d",
+    "react",
+    "threejs",
+    "landing page",
+    "webgl",
+    "visualization"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT"
+}
