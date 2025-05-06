@@ -1,0 +1,36 @@
+@tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+
+ /* Define custom CSS variables for fitness color palette */
+ :root {
+  --color-fitness-primary: 46, 204, 113;
+  --color-fitness-secondary: 52, 152, 219;
+  --color-fitness-accent: 243, 156, 18;
+  --color-fitness-text-primary: 33, 33, 33;
+  --color-fitness-text-secondary: 75, 75, 75;
+  --color-fitness-background: 236, 240, 241;
+ }
+ 
+
+ /* Base styles */
+ @layer base {
+  html {
+  font-family: 'Open Sans', sans-serif;
+  }
+ 
+
+  body {
+  @apply antialiased;
+  }
+ }
+ 
+
+ /* Error handling style for App.tsx, HeroSection.tsx, and FeatureSection.tsx */
+ .error-message {
+  color: #e74c3c;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+ }
